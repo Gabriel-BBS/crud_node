@@ -5,7 +5,7 @@ const express = require('express');
 const path = require('path');
 const db = require('./config/db');
 
-const userRouter = require('./routes/user.router');
+const userRouter = require('./routes/user_router');
 
 const app = express();
 app.use(express.json());
